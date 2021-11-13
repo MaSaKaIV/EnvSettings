@@ -1,5 +1,6 @@
 # EnvSettings Memo
 An overview of the environment is given below.
+Windows and Archlinux Duealboot
 
 ## Setup instructions
 1. Settings of Network
