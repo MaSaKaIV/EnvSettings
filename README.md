@@ -5,6 +5,7 @@ An overview of the environment about Windows and Archlinux Duealboot is given be
 Basically, it follows URL1 and URL2. For installation notes, see the section below.
 
 [URL1:Archlunux Intall Guide](https://wiki.archlinux.org/title/installation_guide)
+
 [URL2:Archlinux and Windows Dualboot JP](https://wiki.archlinux.jp/index.php/Windows_%E3%81%A8_Arch_%E3%81%AE%E3%83%87%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%96%E3%83%BC%E3%83%88)
 
 ### Notes
