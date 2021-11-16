@@ -38,3 +38,21 @@ Basically, it follows URL1 and URL2. For installation notes, see the section bel
 ```Set Unmute with amixer```
 
 8. Input Device
+
+1. sudo pacman -S zsh
+2. chsh -s $(which zsh)
+3. vi ~/.zshrc
+4. ~/.zshrc
+autoload -U compinit && compinit
+PROMPT='%n@%m:%~ %# '
+export EDITOR=nano
+5. exec zsh -l
+6. sudoedit /etc/pacman.conf
+- #Color
++ Color
+6. sudo pacman -S git
+8. mkdir ~/src
+9. git clone https://aur.archlinux.org/yay-bin.git
+10. makepkg -si
+11. sudo pacman -s noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+12. sudo pacman -S ttf-ricty
