@@ -119,7 +119,7 @@ $ sudo pacman -S i3
 Intall terminal emulator and launcher for i3.
 Then, Custom rofi settings.
 ```
-$ sudo pacman -S cool-retro-term rofi
+$ sudo pacman -S rofi
 $ mkdir ~/.config/rofi
 $ vi ~/.config/rofi/config.rasi
 ~/.config/rofi/config.rasi
@@ -296,15 +296,11 @@ Intall Web brawser
 $ sudo pacman -S chromium
 ```
 
-Intall your HOMELANGUAGE
+Intall your HOMELANGUAGE and termianl settings
+look over details below URL
+URL:https://blog.freebsd-days.com/2020/07/use-pretty-rxvt-unicode/
 ```sh
-$ sudo pacman -S fcitx fcitx-mozc fcitx-im fcitx-configtool
-$ vi ~/.xprofile
-~/.xprofile
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
-fcitx
+$ sudo pacman -S fcitx fcitx-mozc fcitx-im fcitx-configtool urxvt-unicode
 ```
 
 Intall Sound Server
